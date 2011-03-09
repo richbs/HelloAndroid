@@ -10,7 +10,8 @@ public class HelloAndroid extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         TextView tv = new TextView(this);
-        tv.setText("Hello, Androider");
+        tv.setText("Hello, Fish face!");
+        tv.setTextColor(6);
         setContentView(tv);
     }
 }
